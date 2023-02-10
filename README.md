@@ -1,3 +1,20 @@
+![solarized palette](https://github.com/JeffGuo576/Image-Processor/blob/main/GUIScreenShot.png)
+
+Click on:
+- the load image button and select the image file to display on the GUI and there will be a pop up
+after selecting the image that takes in your input of the file name you would like the program
+to refer the image as.
+- the same file allows you to save the current image that is being displayed on the GUI. You just
+need to give it a name and the type of file you want to save it as. e.g.
+- any of the operations you would like to apply to the displayed image, there will be a pop up
+where you input the file name of the image you want to edit and the new file name for the
+edited image.
+- a histogram of the displayed image will automatically refresh and register
+
+
+
+
+
 HW5 Changes:
 We added support for image formats and new features such as blur, sharpen, sepia-tone and greyscale for image format photos.
 The controller, view and model should be complete. We added new methods to provide support for the new image formats. Initially our load method only worked for PPM files. We decided to make our load method work for either ppm files or image format files to create flexibility.
