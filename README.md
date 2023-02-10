@@ -11,10 +11,6 @@ where you input the file name of the image you want to edit and the new file nam
 edited image.
 - a histogram of the displayed image will automatically refresh and register
 
-
-
-
-
 HW5 Changes:
 We added support for image formats and new features such as blur, sharpen, sepia-tone and greyscale for image format photos.
 The controller, view and model should be complete. We added new methods to provide support for the new image formats. Initially our load method only worked for PPM files. We decided to make our load method work for either ppm files or image format files to create flexibility.
